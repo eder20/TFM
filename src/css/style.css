@@ -1,0 +1,61 @@
+
+appCounter {
+}
+
+.appCounter-header {
+	font-size: x-large;
+	color: mediumblue;
+}
+
+.appCounter-header-title {
+    font-size: x-large;
+    color: darkblue;
+}
+
+.appCounter-header-version {
+    font-size: x-small;
+    color: lightblue;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.appCounter-data {
+	color: darkgreen;
+	border: 1px solid green;
+	margin: 10px;
+    padding: 10px;
+}
+
+.appCounter-data-value {
+    font-size: x-large;
+    color: green;
+    padding: 5px;
+}
+
+.appCounter-data-updating {
+	display: block;
+	font-size: smaller;
+    color: lightgreen;
+}
+
+.appCounter-data-error {
+	display: block;
+    font-size: smaller;
+    color: red;
+}
+
+.appCounter-control {
+	font-size: small;
+}
+
+.button-common {
+	color: blue;
+}
+
+.button-common:disabled {
+    color: lightgrey;
+}
+
+.info-common {
+}
